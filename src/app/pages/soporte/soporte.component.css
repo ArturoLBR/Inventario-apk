@@ -1,0 +1,14 @@
+h2{
+    text-align: center;
+    background-color:yellow;
+}
+
+
+
+.botonEnviar{
+
+    padding-bottom: 0px; /* Ajusta el valor según lo necesites para bajar el botón */
+
+    text-align: center;
+    background-color: tomato;
+}

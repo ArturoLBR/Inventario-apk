@@ -1,0 +1,24 @@
+ion-row {
+  :is(ion-col) {
+      margin-bottom: 10px; /* Agrega el espacio vertical deseado entre las columnas */
+    }
+  }
+  
+  .button-margin {
+    margin-right: 20px;
+  }
+
+  .home-icon{
+
+    display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+    display: flex;
+    font-size: 58px; /* Ajusta el tamaño del ícono según tus preferencias */
+  }
+
+  .estilo {
+    font-weight: bold;
+    font-size: 20px; /* Cambia el tamaño de fuente */
+    
+  }

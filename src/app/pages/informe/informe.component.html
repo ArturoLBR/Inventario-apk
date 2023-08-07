@@ -1,0 +1,23 @@
+<ion-header>
+
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>Informe del inventario</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+
+  <ion-grid>
+    <!-- ... Resto del contenido ... -->
+  
+    <!-- Mostrar la cantidad total y el precio total -->
+    <p>Cantidad Total de Productos: {{ calcularCantidadTotal() }}</p>
+    <p>Precio Total: ${{ calcularPrecioTotal().toFixed(2) }}</p>
+    <p>Valor Promedio por Producto: ${{ calcularValorPromedioPorProducto().toFixed(2) }}</p>
+  </ion-grid>
+
+</ion-content>

@@ -1,0 +1,20 @@
+/* Reducir el tamaño de la barra de búsqueda */
+ion-searchbar {
+    .searchbar-input {
+      font-size: -22px; /* Ajusta el tamaño de fuente según lo necesites */
+      padding: 1px; /* Ajusta el padding según lo necesites */
+      border-radius: 5px; /* Ajusta el radio de borde según lo necesites */
+    }
+  }
+
+  .table-header {
+    background-color: #584B9A; /* Color de fondo para los encabezados */
+    color: white; /* Color de texto para los encabezados */
+    font-weight: bold; /* Texto en negrita para los encabezados */
+    padding: 10px; /* Espacio de relleno para los encabezados */
+  }
+
+  .line {
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
+  }

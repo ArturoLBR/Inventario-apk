@@ -1,0 +1,32 @@
+
+
+.titulo{
+    display: flex;
+    justify-content: flex-end;
+
+  }
+
+  .icon-derecha {
+    font-size: 24px; /* Cambia el tamaño del ícono a tu preferencia */
+    /* Alineación vertical del ícono */
+    position: relative;
+    top: 60%;
+    transform: translateY(-60%);
+    ; /* Cambia el color de fondo a tu preferencia */
+    color: #ffffff;
+    width: 55px; /* Cambia el ancho del botón a tu preferencia */
+    height: 55px; /*Cambia la altura del botón a tu preferencia */
+  }
+
+.bt1{
+  font-size: 2px; /* Cambia el tamaño del ícono a tu preferencia */
+  /* Alineación vertical del ícono */
+  position: relative; 
+  transform: translateY(10%);
+  /* Cambia el color de fondo a tu preferencia */
+  color: #ffffff;
+  width: 50px; /* Cambia el ancho del botón a tu preferencia */
+  height: 50px; /*Cambia la altura del botón a tu preferencia */
+
+}
+

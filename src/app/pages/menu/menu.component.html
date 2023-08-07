@@ -1,0 +1,30 @@
+<ion-header>
+    <ion-toolbar color="primary">
+     
+
+      <ion-button class="bt1" routerLink="/login" routerDirection="root"  >
+        <ion-icon class="icon-derecha" name="arrow-back-circle-outline"></ion-icon>
+      </ion-button>
+      
+
+      <ion-title class="ion-text-center">Recuperacion de contraseña</ion-title>
+
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+  
+
+        <form (ngSubmit)="enviar()">
+
+            <ion-item>
+              <ion-label>Correo de Recuperacion:</ion-label>   
+              <ion-input type="email" ngModel name="email"></ion-input>
+            </ion-item>
+          
+            <ion-button  color="success" type="submit"  >Enviar</ion-button>
+          
+          </form>
+
+  </ion-content>
+  

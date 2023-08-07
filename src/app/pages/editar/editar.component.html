@@ -1,0 +1,88 @@
+<ion-header>
+
+    <ion-toolbar color="primary">
+
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>Editar</ion-title>
+
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-grid >
+        <ion-row>
+          <ion-col size="12">
+            <ion-item>
+              <ion-input type="text" [(ngModel)]="id" placeholder="ID"></ion-input>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col size="12">
+            <ion-item>
+              <ion-label class="estilo">Nombre:</ion-label>
+              <ion-input type="text" [(ngModel)]="nombre"></ion-input>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col size="12">
+            <ion-item>
+              <ion-label class="estilo">Descripción:</ion-label>
+              <ion-input type="text" [(ngModel)]="descripcion"></ion-input>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col size="12">
+            <ion-item>
+              <ion-label class="estilo">Cantidad: </ion-label>
+              <ion-input type="number" [(ngModel)]="cantidad"></ion-input>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col size="12">
+            <ion-item>
+              <ion-label class="estilo">Precio: </ion-label>
+              <ion-input type="number" [(ngModel)]="precio"></ion-input>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col size="12">
+            <ion-item>
+              <ion-label class="estilo">Proveedor:</ion-label>
+              <ion-input type="text" [(ngModel)]="proveedor"></ion-input>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col size="12">
+            
+            <ion-button color="success" expand="" (click)="guardarCambios()" class="button-margin">Guardar Cambios </ion-button>
+         
+            <ion-button  color="secondary" expand="" (click)="buscarDatos()" class="button-margin">Buscar</ion-button>
+
+            <ion-button  color="danger" expand="" (click)="eliminarDatos()" class="button-margin">Eliminar</ion-button>
+
+          </ion-col>
+
+        </ion-row>
+      </ion-grid>
+
+      
+      <h1 class="home-icon" routerLink="/home" routerDirection="root">
+        <ion-icon slot="start" name="home" color="primary" ></ion-icon>
+      </h1>      
+
+      
+
+      
+<!-- <app-informe [productos]="productos"></app-informe> -->
+
+</ion-content>

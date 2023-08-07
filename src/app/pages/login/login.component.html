@@ -1,0 +1,44 @@
+
+
+<ion-header>
+
+    <ion-title></ion-title>
+</ion-header>
+
+
+    <ion-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="12" class="ion-text-center">
+            <h2>Bienvenido 4</h2>
+          </ion-col>
+        </ion-row>
+    
+        <ion-row>
+          <ion-col size="12">
+            <form (ngSubmit)="onSubmit()">
+              
+
+              <ion-item class="username-input">
+                <ion-label>Usuario</ion-label>
+                <ion-input type="text" [(ngModel)]="username" name="username" placeholder="Usuario"></ion-input>
+              </ion-item>
+              
+              <ion-item class="password-input">
+                <ion-label>Contraseña</ion-label>
+                <ion-input type="password" [(ngModel)]="password" name="password" placeholder="Contraseña"></ion-input>
+              </ion-item>
+              
+
+
+              <ion-button  expand="full" type="submit">Iniciar sesión</ion-button>
+
+              <p class="forgot-password-text" routerLink="/menu" routerDirection="forward">Olvide la contraseña</p>
+
+            </form>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-content>
+    
+
